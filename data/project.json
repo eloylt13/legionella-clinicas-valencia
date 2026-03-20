@@ -1,0 +1,15 @@
+{
+  "projectName": "Legionella Clínicas Valencia",
+  "service": "control de legionella para clínicas dentales",
+  "city": "Valencia",
+  "audience": "clínicas dentales",
+  "ctaPrimary": "Solicitar revisión",
+  "ctaSecondary": "Pedir presupuesto",
+  "valueProposition": "Ayudamos a clínicas dentales de Valencia a solicitar revisión y presupuesto para control de legionella.",
+  "goal": "captar solicitudes cualificadas mediante formulario",
+  "pages": [
+    "home",
+    "gracias",
+    "privacidad"
+  ]
+}
