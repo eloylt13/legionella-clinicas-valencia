@@ -1,22 +1,22 @@
 import Link from "next/link";
 
 const benefits = [
-  "Solicitud clara de revision o presupuesto, sin llamadas innecesarias.",
-  "Mensaje pensado para clinicas dentales de Valencia y su dia a dia.",
-  "Enfoque prudente en prevencion, cumplimiento y gestion ordenada.",
-  "Derivacion sencilla hacia empresas especializadas cuando corresponda.",
+  "Solicitud clara de revisión o presupuesto, sin llamadas innecesarias.",
+  "Mensaje pensado para clínicas dentales de Valencia y su día a día.",
+  "Enfoque prudente en prevención, cumplimiento y gestión ordenada.",
+  "Derivación sencilla hacia empresas especializadas cuando corresponda.",
 ];
 
 const process = [
   {
-    title: "1. Envio del formulario",
+    title: "1. Envío del formulario",
     description:
-      "La clinica comparte sus datos y explica brevemente que necesita.",
+      "La clínica comparte sus datos y explica brevemente qué necesita.",
   },
   {
-    title: "2. Revision de la peticion",
+    title: "2. Revisión de la petición",
     description:
-      "Se analiza la informacion para orientar el siguiente paso con criterio profesional.",
+      "Se analiza la información para orientar el siguiente paso con criterio profesional.",
   },
   {
     title: "3. Contacto o presupuesto",
@@ -27,17 +27,17 @@ const process = [
 
 const faqs = [
   {
-    question: "A quien va dirigido este servicio?",
+    question: "¿A quién va dirigido este servicio?",
     answer:
-      "A clinicas dentales de Valencia que necesitan una via seria para solicitar revision o presupuesto de control de legionella.",
+      "A clínicas dentales de Valencia que necesitan una vía seria para solicitar revisión o presupuesto de control de legionella.",
   },
   {
-    question: "La referencia normativa es asesoramiento juridico?",
+    question: "¿La referencia normativa es asesoramiento jurídico?",
     answer:
-      "No. Se menciona de forma general el RD 487/2022 como marco orientativo, sin sustituir asesoramiento legal ni tecnico.",
+      "No. Se menciona de forma general el RD 487/2022 como marco orientativo, sin sustituir asesoramiento legal ni técnico.",
   },
   {
-    question: "Que pasa despues de enviar el formulario?",
+    question: "¿Qué pasa después de enviar el formulario?",
     answer:
       "La solicitud queda registrada para revisar el caso y gestionar el siguiente paso de forma profesional.",
   },
@@ -45,19 +45,19 @@ const faqs = [
 
 const trustPoints = [
   {
-    title: "Enfoque tecnico y preventivo",
-    text: "La comunicacion se centra en revision, control y prevencion con un tono serio y local.",
+    title: "Enfoque técnico y preventivo",
+    text: "La comunicación se centra en revisión, control y prevención con un tono serio y local.",
   },
   {
     title: "Proceso claro",
-    text: "La clinica sabe que ocurre desde el primer contacto hasta la respuesta final.",
+    text: "La clínica sabe qué ocurre desde el primer contacto hasta la respuesta final.",
   },
   {
     title: "Tratamiento profesional",
     text: "La solicitud se gestiona con un enfoque ordenado, claro y adecuado para un primer contacto profesional.",
   },
   {
-    title: "Derivacion a especialistas",
+    title: "Derivación a especialistas",
     text: "Cuando procede, el caso puede orientarse hacia empresas especializadas en el servicio.",
   },
 ];
@@ -71,26 +71,25 @@ export default function Home() {
           <div className="relative grid gap-8 px-5 py-8 sm:px-8 sm:py-10 lg:grid-cols-[1.15fr_0.85fr] lg:px-12 lg:py-14">
             <div className="max-w-2xl">
               <span className="inline-flex rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-slate-200">
-                Clinicas dentales de Valencia
+                Clínicas dentales de Valencia
               </span>
               <h1 className="mt-5 text-3xl font-semibold leading-tight tracking-tight sm:text-4xl lg:text-5xl">
-                Solicite revision o presupuesto para el control de legionella de
-                su clinica dental en Valencia.
+                Control de legionella para clínicas dentales en Valencia
               </h1>
               <p className="mt-4 max-w-xl text-sm leading-7 text-slate-300 sm:text-base">
-                Solicitud profesional para clinicas dentales que necesitan una
-                via clara de contacto en un contexto de prevencion,
-                cumplimiento y gestion ordenada.
+                Solicitud profesional para clínicas dentales que necesitan una
+                vía clara de contacto en un contexto de prevención,
+                cumplimiento y gestión ordenada.
               </p>
               <div className="mt-8 flex flex-col items-start gap-3 sm:flex-row sm:items-center sm:gap-4">
                 <a
                   href="#formulario"
                   className="inline-flex min-h-14 shrink-0 items-center justify-center self-start rounded-full bg-cyan-500 px-6 text-center text-sm font-semibold leading-tight text-slate-950 transition hover:bg-cyan-400"
                 >
-                  <span className="block text-center">Solicitar revision</span>
+                  <span className="block text-center">Solicitar revisión</span>
                 </a>
                 <p className="max-w-md text-sm leading-6 text-slate-300">
-                  Para clinicas dentales de Valencia que necesitan una respuesta
+                  Para clínicas dentales de Valencia que necesitan una respuesta
                   profesional y directa.
                 </p>
               </div>
@@ -102,17 +101,17 @@ export default function Home() {
               </p>
               <div className="mt-5 grid gap-4">
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
-                  <p className="text-sm font-medium text-white">Prevencion</p>
+                  <p className="text-sm font-medium text-white">Prevención</p>
                   <p className="mt-2 text-sm leading-6 text-slate-300">
-                    Comunicacion orientada a ordenar la gestion y evitar
-                    improvisacion.
+                    Comunicación orientada a ordenar la gestión y evitar
+                    improvisación.
                   </p>
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
                   <p className="text-sm font-medium text-white">Cumplimiento</p>
                   <p className="mt-2 text-sm leading-6 text-slate-300">
                     Referencia prudente al marco normativo, sin convertir la
-                    pagina en un documento legal.
+                    página en un documento legal.
                   </p>
                 </div>
                 <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
@@ -120,7 +119,7 @@ export default function Home() {
                     Solicitud profesional
                   </p>
                   <p className="mt-2 text-sm leading-6 text-slate-300">
-                    Formulario pensado para recoger datos utiles y orientar el
+                    Formulario pensado para recoger datos útiles y orientar el
                     caso con rapidez.
                   </p>
                 </div>
@@ -135,13 +134,13 @@ export default function Home() {
               Problema / necesidad
             </p>
             <h2 className="mt-3 text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
-              Las clinicas necesitan una gestion clara, preventiva y bien
+              Las clínicas necesitan una gestión clara, preventiva y bien
               documentada.
             </h2>
             <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
-              En una clinica dental, la prevencion no deberia depender de
-              mensajes genericos. Hace falta una forma simple de explicar la
-              necesidad, revisar la situacion y canalizar la solicitud con
+              En una clínica dental, la prevención no debería depender de
+              mensajes genéricos. Hace falta una forma simple de explicar la
+              necesidad, revisar la situación y canalizar la solicitud con
               orden.
             </p>
 
@@ -151,7 +150,7 @@ export default function Home() {
                   Primera toma de contacto
                 </p>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                  La clinica deja sus datos y explica que necesita sin pasos
+                  La clínica deja sus datos y explica qué necesita sin pasos
                   innecesarios.
                 </p>
               </div>
@@ -160,7 +159,7 @@ export default function Home() {
                   Contexto local
                 </p>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                  El mensaje se centra en clinicas dentales de Valencia y su
+                  El mensaje se centra en clínicas dentales de Valencia y su
                   entorno operativo.
                 </p>
               </div>
@@ -192,15 +191,15 @@ export default function Home() {
           <div className="mt-3 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
             <div>
               <h2 className="text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
-                Referencia general al RD 487/2022 para solicitar revision o
+                Referencia general al RD 487/2022 para solicitar revisión o
                 presupuesto con un enfoque prudente.
               </h2>
               <p className="mt-4 text-sm leading-7 text-slate-600 sm:text-base">
                 Se menciona el RD 487/2022 como marco general de referencia para
-                situar la conversacion en prevencion y control. La pagina sirve
-                para solicitar revision o presupuesto y, cuando corresponda,
-                derivar la peticion a empresas especializadas. No ofrece
-                asesoramiento juridico ni tecnico.
+                situar la conversación en prevención y control. La página sirve
+                para solicitar revisión o presupuesto y, cuando corresponda,
+                derivar la petición a empresas especializadas. No ofrece
+                asesoramiento jurídico ni técnico.
               </p>
             </div>
 
@@ -217,7 +216,7 @@ export default function Home() {
                   Objetivo comercial
                 </p>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                  La solicitud se canaliza de forma seria para revision o
+                  La solicitud se canaliza de forma seria para revisión o
                   presupuesto.
                 </p>
               </div>
@@ -264,7 +263,7 @@ export default function Home() {
 
         <section className="mt-6 rounded-[28px] bg-white p-6 shadow-sm sm:p-8">
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-cyan-700">
-            Como funciona
+            Cómo funciona
           </p>
           <div className="mt-4 grid gap-4 lg:grid-cols-3">
             {process.map((step) => (
@@ -289,16 +288,16 @@ export default function Home() {
               Formulario
             </p>
             <h2 className="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl">
-              Solicitar revision o presupuesto
+              Solicitar revisión o presupuesto
             </h2>
             <p className="mt-4 text-sm leading-7 text-slate-300 sm:text-base">
-              Comparta la informacion basica de la clinica para que podamos
-              revisar la peticion y responder con criterio profesional.
+              Comparta la información básica de la clínica para que podamos
+              revisar la petición y responder con criterio profesional.
             </p>
             <div className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-4">
               <p className="text-sm leading-6 text-slate-300">
-                Indique la direccion o zona y una breve descripcion de la
-                necesidad para agilizar la gestion.
+                Indique la dirección o zona y una breve descripción de la
+                necesidad para agilizar la gestión.
               </p>
             </div>
           </div>
@@ -317,11 +316,11 @@ export default function Home() {
               <input type="hidden" name="page" value="home" />
               <div className="grid gap-4 sm:grid-cols-2">
                 <label className="grid gap-2 text-sm font-medium text-slate-700">
-                  Nombre de la clinica
+                  Nombre de la clínica
                   <input
                     type="text"
                     name="clinica"
-                    placeholder="Clinica dental"
+                    placeholder="Clínica dental"
                     required
                     className="min-h-12 rounded-2xl border border-stone-300 bg-stone-50 px-4 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-cyan-600"
                   />
@@ -362,11 +361,11 @@ export default function Home() {
               </div>
 
               <label className="grid gap-2 text-sm font-medium text-slate-700">
-                Direccion o zona
+                Dirección o zona
                 <input
                   type="text"
                   name="zona"
-                  placeholder="Valencia, barrio o direccion"
+                  placeholder="Valencia, barrio o dirección"
                   required
                   className="min-h-12 rounded-2xl border border-stone-300 bg-stone-50 px-4 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-cyan-600"
                 />
@@ -381,9 +380,9 @@ export default function Home() {
                   className="min-h-12 rounded-2xl border border-stone-300 bg-stone-50 px-4 text-sm text-slate-900 outline-none transition focus:border-cyan-600"
                 >
                   <option value="" disabled>
-                    Seleccione una opcion
+                    Seleccione una opción
                   </option>
-                  <option value="revision">Solicitar revision</option>
+                  <option value="revision">Solicitar revisión</option>
                   <option value="presupuesto">Pedir presupuesto</option>
                   <option value="mantenimiento">Mantenimiento preventivo</option>
                   <option value="consulta">Consulta general</option>
@@ -395,7 +394,7 @@ export default function Home() {
                 <textarea
                   name="comentario"
                   rows={5}
-                  placeholder="Explique brevemente la situacion o el tipo de instalacion"
+                  placeholder="Explique brevemente la situación o el tipo de instalación"
                   className="rounded-2xl border border-stone-300 bg-stone-50 px-4 py-3 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-cyan-600"
                 />
               </label>
@@ -408,12 +407,12 @@ export default function Home() {
                   className="mt-1 h-4 w-4 rounded border-stone-300 text-slate-900"
                 />
                 <span>
-                  He leido la{" "}
+                  He leído la{" "}
                   <Link
                     href="/privacidad"
                     className="font-semibold text-slate-900 underline underline-offset-4"
                   >
-                    politica de privacidad
+                    política de privacidad
                   </Link>{" "}
                   y acepto el tratamiento de mis datos para gestionar esta
                   solicitud.
@@ -425,10 +424,10 @@ export default function Home() {
                   type="submit"
                   className="inline-flex min-h-12 items-center justify-center rounded-full bg-slate-900 px-6 text-sm font-semibold text-white transition hover:bg-slate-800"
                 >
-                  Solicitar revision
+                  Solicitar revisión
                 </button>
                 <p className="text-xs leading-5 text-slate-500">
-                  Envie la solicitud para que podamos revisarla y responder con
+                  Envíe la solicitud para que podamos revisarla y responder con
                   el siguiente paso adecuado.
                 </p>
               </div>
